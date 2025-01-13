@@ -26,12 +26,12 @@ This will clear all loaded models from the HashTable.
 ```
 Move the file "mxp_sequencer_amxx_i386.so" into "addons/amxmodx/modules" path file.
 Add the text "mxp_sequencer" in "addons/amxmodx/configs/modules.ini".
-You are ready to write plugins & use this modules.
+You are ready to write plugins & use this module.
 ```
 
 # Examples
 
-I will leave an example  plugin that will help you to understand on how to use it better
+I will leave an example  plugin that will help you to understand how to use it better.
 
 # Crash Course
 
@@ -54,4 +54,6 @@ Can't read a specific sequence.
 The sequence contains invalid data.
 Can't find the sequences that you attempted to obtain.
 ```
+# Memory
 
+Don't need to worry about manually free the memory. HashTable is auto-deleted after all plugins are unloaded.
